@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-02 14:13:10",
+  "generated_at": "2026-09-02 14:18:14",
   "engine": "Lele Alpha Short Watch V0.6",
   "stock_count": 12,
   "stocks": [
     {
       "code": "300394",
       "name": "天孚通信",
-      "price": 253.12,
-      "time": "2026-09-02 14:12:53",
+      "price": 250.64,
+      "time": "2026-09-02 14:17:59",
       "formal": {
         "segment_direction": "up",
         "confidence": 58,
-        "center_distance_pct": 6.02,
+        "center_distance_pct": 6.94,
         "center_is_remote": true
       },
       "tactical": {
@@ -37,21 +37,21 @@
         "veto": []
       },
       "levels": {
-        "trigger1": 253.15,
-        "trigger2": 253.54,
-        "support1": 252.25,
-        "support2": 251.0
+        "trigger1": 251.8,
+        "trigger2": 252.47,
+        "support1": 249.6,
+        "support2": 249.22
       }
     },
     {
       "code": "002155",
       "name": "湖南黄金",
-      "price": 26.23,
-      "time": "2026-09-02 14:12:54",
+      "price": 26.25,
+      "time": "2026-09-02 14:18:00",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
-        "center_distance_pct": 5.57,
+        "center_distance_pct": 5.66,
         "center_is_remote": true
       },
       "tactical": {
@@ -80,19 +80,19 @@
       "levels": {
         "trigger1": 26.38,
         "trigger2": 26.39,
-        "support1": 26.2,
-        "support2": 25.9
+        "support1": 26.22,
+        "support2": 26.2
       }
     },
     {
       "code": "002371",
       "name": "北方华创",
-      "price": 669.94,
-      "time": "2026-09-02 14:12:56",
+      "price": 668.17,
+      "time": "2026-09-02 14:18:01",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
-        "center_distance_pct": 2.34,
+        "center_distance_pct": 2.6,
         "center_is_remote": false
       },
       "tactical": {
@@ -118,21 +118,102 @@
         "veto": []
       },
       "levels": {
-        "trigger1": 669.96,
-        "trigger2": 670.6,
-        "support1": 669.32,
-        "support2": 667.8
+        "trigger1": 668.5,
+        "trigger2": 668.96,
+        "support1": 667.8,
+        "support2": 667.0
       }
     },
     {
       "code": "300054",
       "name": "鼎龙股份",
-      "price": 69.17,
-      "time": "2026-09-02 14:12:58",
+      "price": 69.08,
+      "time": "2026-09-02 14:18:02",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
-        "center_distance_pct": 4.83,
+        "center_distance_pct": 7.41,
+        "center_is_remote": true
+      },
+      "tactical": {
+        "bias": "向下",
+        "confidence": 37
+      },
+      "momentum": {
+        "confidence": 87,
+        "m5_state": "多头",
+        "m5_signal": "无新交叉",
+        "m5_momentum": "红柱减弱",
+        "m15_state": "多头",
+        "m15_signal": "无新交叉",
+        "m15_momentum": "红柱增强"
+      },
+      "decision": {
+        "grade": "🔴 暂不参与",
+        "trade_type": "不参与",
+        "composite": 58,
+        "warnings": [
+          "最近正式线段仍向下，当前首先按反弹/修复机会处理",
+          "最近正式中枢距现价较远，不拿历史中枢直接压低短线评分"
+        ],
+        "veto": []
+      },
+      "levels": {
+        "trigger1": 69.15,
+        "trigger2": 69.16,
+        "support1": 68.83,
+        "support2": 68.64
+      }
+    },
+    {
+      "code": "688809",
+      "name": "强一股份",
+      "price": 451.29,
+      "time": "2026-09-02 14:18:04",
+      "formal": {
+        "segment_direction": "down",
+        "confidence": 42,
+        "center_distance_pct": 1.77,
+        "center_is_remote": false
+      },
+      "tactical": {
+        "bias": "向下",
+        "confidence": 37
+      },
+      "momentum": {
+        "confidence": 92,
+        "m5_state": "多头",
+        "m5_signal": "无新交叉",
+        "m5_momentum": "红柱增强",
+        "m15_state": "多头",
+        "m15_signal": "无新交叉",
+        "m15_momentum": "红柱增强"
+      },
+      "decision": {
+        "grade": "🔴 暂不参与",
+        "trade_type": "不参与",
+        "composite": 60,
+        "warnings": [
+          "最近正式线段仍向下，当前首先按反弹/修复机会处理"
+        ],
+        "veto": []
+      },
+      "levels": {
+        "trigger1": 451.49,
+        "trigger2": 452.51,
+        "support1": 451.01,
+        "support2": 450.51
+      }
+    },
+    {
+      "code": "000988",
+      "name": "华工科技",
+      "price": 99.64,
+      "time": "2026-09-02 14:18:05",
+      "formal": {
+        "segment_direction": "down",
+        "confidence": 42,
+        "center_distance_pct": 4.31,
         "center_is_remote": false
       },
       "tactical": {
@@ -158,106 +239,26 @@
         "veto": []
       },
       "levels": {
-        "trigger1": 69.3,
-        "trigger2": 69.31,
-        "support1": 68.83,
-        "support2": 68.64
-      }
-    },
-    {
-      "code": "688809",
-      "name": "强一股份",
-      "price": 451.99,
-      "time": "2026-09-02 14:12:59",
-      "formal": {
-        "segment_direction": "down",
-        "confidence": 42,
-        "center_distance_pct": 1.62,
-        "center_is_remote": false
-      },
-      "tactical": {
-        "bias": "向上",
-        "confidence": 68
-      },
-      "momentum": {
-        "confidence": 92,
-        "m5_state": "多头",
-        "m5_signal": "无新交叉",
-        "m5_momentum": "红柱增强",
-        "m15_state": "多头",
-        "m15_signal": "金叉",
-        "m15_momentum": "红柱增强"
-      },
-      "decision": {
-        "grade": "🟢 强动量反弹候选",
-        "trade_type": "反弹/修复机会",
-        "composite": 74,
-        "warnings": [
-          "最近正式线段仍向下，当前首先按反弹/修复机会处理"
-        ],
-        "veto": []
-      },
-      "levels": {
-        "trigger1": 452.51,
-        "trigger2": 452.68,
-        "support1": 451.01,
-        "support2": 450.5
-      }
-    },
-    {
-      "code": "000988",
-      "name": "华工科技",
-      "price": 99.91,
-      "time": "2026-09-02 14:13:01",
-      "formal": {
-        "segment_direction": "down",
-        "confidence": 42,
-        "center_distance_pct": 3.38,
-        "center_is_remote": false
-      },
-      "tactical": {
-        "bias": "向上",
-        "confidence": 68
-      },
-      "momentum": {
-        "confidence": 87,
-        "m5_state": "多头",
-        "m5_signal": "无新交叉",
-        "m5_momentum": "红柱减弱",
-        "m15_state": "多头",
-        "m15_signal": "无新交叉",
-        "m15_momentum": "红柱增强"
-      },
-      "decision": {
-        "grade": "🟢 强动量反弹候选",
-        "trade_type": "反弹/修复机会",
-        "composite": 72,
-        "warnings": [
-          "最近正式线段仍向下，当前首先按反弹/修复机会处理"
-        ],
-        "veto": []
-      },
-      "levels": {
-        "trigger1": 99.93,
-        "trigger2": 100.15,
-        "support1": 99.8,
-        "support2": 99.71
+        "trigger1": 99.7,
+        "trigger2": 99.93,
+        "support1": 99.41,
+        "support2": 99.18
       }
     },
     {
       "code": "300475",
       "name": "香农芯创",
-      "price": 169.17,
-      "time": "2026-09-02 14:13:02",
+      "price": 168.04,
+      "time": "2026-09-02 14:18:06",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
-        "center_distance_pct": 2.37,
+        "center_distance_pct": 3.02,
         "center_is_remote": false
       },
       "tactical": {
-        "bias": "向上",
-        "confidence": 68
+        "bias": "向下",
+        "confidence": 37
       },
       "momentum": {
         "confidence": 19,
@@ -271,70 +272,31 @@
       "decision": {
         "grade": "🔴 放弃/等待",
         "trade_type": "不参与",
-        "composite": 44,
+        "composite": 31,
         "warnings": [
           "最近正式线段仍向下，当前首先按反弹/修复机会处理"
         ],
         "veto": [
+          "1m与5m同时向下",
           "5m/15m双空"
         ]
       },
       "levels": {
         "trigger1": 169.8,
         "trigger2": 169.83,
-        "support1": 169.13,
-        "support2": 169.08
+        "support1": 165.04,
+        "support2": null
       }
     },
     {
       "code": "688041",
       "name": "海光信息",
-      "price": 248.1,
-      "time": "2026-09-02 14:13:04",
+      "price": 247.8,
+      "time": "2026-09-02 14:18:08",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
-        "center_distance_pct": null,
-        "center_is_remote": false
-      },
-      "tactical": {
-        "bias": "向上",
-        "confidence": 68
-      },
-      "momentum": {
-        "confidence": 87,
-        "m5_state": "多头",
-        "m5_signal": "无新交叉",
-        "m5_momentum": "红柱减弱",
-        "m15_state": "多头",
-        "m15_signal": "金叉",
-        "m15_momentum": "红柱增强"
-      },
-      "decision": {
-        "grade": "🟢 强动量反弹候选",
-        "trade_type": "反弹/修复机会",
-        "composite": 72,
-        "warnings": [
-          "最近正式线段仍向下，当前首先按反弹/修复机会处理"
-        ],
-        "veto": []
-      },
-      "levels": {
-        "trigger1": 249.21,
-        "trigger2": 249.81,
-        "support1": 246.5,
-        "support2": 246.23
-      }
-    },
-    {
-      "code": "688820",
-      "name": "盛合晶微",
-      "price": 129.51,
-      "time": "2026-09-02 14:13:05",
-      "formal": {
-        "segment_direction": null,
-        "confidence": 50,
-        "center_distance_pct": null,
+        "center_distance_pct": 1.0,
         "center_is_remote": false
       },
       "tactical": {
@@ -342,37 +304,79 @@
         "confidence": 37
       },
       "momentum": {
-        "confidence": 66,
+        "confidence": 87,
         "m5_state": "多头",
         "m5_signal": "无新交叉",
-        "m5_momentum": "红柱增强",
+        "m5_momentum": "红柱减弱",
+        "m15_state": "多头",
+        "m15_signal": "无新交叉",
+        "m15_momentum": "红柱增强"
+      },
+      "decision": {
+        "grade": "🔴 暂不参与",
+        "trade_type": "不参与",
+        "composite": 58,
+        "warnings": [
+          "最近正式线段仍向下，当前首先按反弹/修复机会处理"
+        ],
+        "veto": []
+      },
+      "levels": {
+        "trigger1": 247.82,
+        "trigger2": 247.84,
+        "support1": 246.5,
+        "support2": 246.23
+      }
+    },
+    {
+      "code": "688820",
+      "name": "盛合晶微",
+      "price": 129.47,
+      "time": "2026-09-02 14:18:09",
+      "formal": {
+        "segment_direction": "down",
+        "confidence": 42,
+        "center_distance_pct": 0.06,
+        "center_is_remote": false
+      },
+      "tactical": {
+        "bias": "向上",
+        "confidence": 68
+      },
+      "momentum": {
+        "confidence": 61,
+        "m5_state": "多头",
+        "m5_signal": "无新交叉",
+        "m5_momentum": "红柱减弱",
         "m15_state": "空头",
         "m15_signal": "无新交叉",
         "m15_momentum": "绿柱减弱"
       },
       "decision": {
-        "grade": "🔴 暂不参与",
-        "trade_type": "不参与",
-        "composite": 51,
-        "warnings": [],
+        "grade": "🟡 观察",
+        "trade_type": "观察",
+        "composite": 61,
+        "warnings": [
+          "最近正式线段仍向下，当前首先按反弹/修复机会处理"
+        ],
         "veto": []
       },
       "levels": {
         "trigger1": 129.54,
         "trigger2": 129.63,
-        "support1": 129.5,
-        "support2": 129.46
+        "support1": 129.46,
+        "support2": 129.4
       }
     },
     {
       "code": "601233",
       "name": "桐昆股份",
-      "price": 26.45,
-      "time": "2026-09-02 14:13:07",
+      "price": 26.4,
+      "time": "2026-09-02 14:18:11",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
-        "center_distance_pct": 2.81,
+        "center_distance_pct": 3.58,
         "center_is_remote": false
       },
       "tactical": {
@@ -400,89 +404,90 @@
       "levels": {
         "trigger1": 26.5,
         "trigger2": 26.52,
-        "support1": 26.43,
-        "support2": 26.36
+        "support1": 26.36,
+        "support2": 26.19
       }
     },
     {
       "code": "603127",
       "name": "昭衍新药",
-      "price": 44.53,
-      "time": "2026-09-02 14:13:08",
+      "price": 44.46,
+      "time": "2026-09-02 14:18:12",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
-        "center_distance_pct": null,
-        "center_is_remote": false
+        "center_distance_pct": 8.84,
+        "center_is_remote": true
       },
       "tactical": {
         "bias": "向上",
         "confidence": 68
       },
       "momentum": {
-        "confidence": 92,
+        "confidence": 82,
         "m5_state": "多头",
         "m5_signal": "无新交叉",
-        "m5_momentum": "红柱增强",
+        "m5_momentum": "红柱减弱",
         "m15_state": "多头",
         "m15_signal": "无新交叉",
-        "m15_momentum": "红柱增强"
+        "m15_momentum": "红柱减弱"
       },
       "decision": {
         "grade": "🟢 强动量反弹候选",
         "trade_type": "反弹/修复机会",
-        "composite": 74,
+        "composite": 70,
         "warnings": [
-          "最近正式线段仍向下，当前首先按反弹/修复机会处理"
+          "最近正式线段仍向下，当前首先按反弹/修复机会处理",
+          "最近正式中枢距现价较远，不拿历史中枢直接压低短线评分"
         ],
         "veto": []
       },
       "levels": {
         "trigger1": 44.56,
         "trigger2": 44.63,
-        "support1": 44.52,
-        "support2": 44.49
+        "support1": 44.45,
+        "support2": 44.44
       }
     },
     {
       "code": "688796",
       "name": "百奥赛图",
-      "price": 125.52,
-      "time": "2026-09-02 14:13:10",
+      "price": 125.54,
+      "time": "2026-09-02 14:18:14",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
-        "center_distance_pct": 7.29,
+        "center_distance_pct": 7.55,
         "center_is_remote": true
       },
       "tactical": {
-        "bias": "向下",
-        "confidence": 37
+        "bias": "向上",
+        "confidence": 68
       },
       "momentum": {
-        "confidence": 48,
+        "confidence": 19,
         "m5_state": "空头",
         "m5_signal": "无新交叉",
         "m5_momentum": "绿柱减弱",
-        "m15_state": "多头",
-        "m15_signal": "无新交叉",
-        "m15_momentum": "红柱减弱"
+        "m15_state": "空头",
+        "m15_signal": "死叉",
+        "m15_momentum": "绿柱增强"
       },
       "decision": {
         "grade": "🔴 放弃/等待",
         "trade_type": "不参与",
-        "composite": 42,
+        "composite": 44,
         "warnings": [
           "最近正式线段仍向下，当前首先按反弹/修复机会处理",
           "最近正式中枢距现价较远，不拿历史中枢直接压低短线评分"
         ],
         "veto": [
-          "1m与5m同时向下"
+          "5m/15m双空"
         ]
       },
       "levels": {
         "trigger1": 125.67,
-        "trigger2": 125.79,
+        "trigger2": 125.71,
         "support1": 125.4,
         "support2": 125.35
       }
