@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01 15:04:23",
+  "generated_at": "2026-09-02 09:25:44",
   "engine": "Lele Alpha Short Watch V0.6",
   "stock_count": 12,
   "stocks": [
@@ -7,7 +7,7 @@
       "code": "300394",
       "name": "天孚通信",
       "price": 251.77,
-      "time": "2026-09-01 15:04:04",
+      "time": "2026-09-02 09:25:31",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
@@ -50,7 +50,7 @@
       "code": "002155",
       "name": "湖南黄金",
       "price": 26.45,
-      "time": "2026-09-01 15:04:05",
+      "time": "2026-09-02 09:25:32",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
@@ -91,12 +91,12 @@
       "code": "002371",
       "name": "北方华创",
       "price": 667.7,
-      "time": "2026-09-01 15:04:08",
+      "time": "2026-09-02 09:25:33",
       "formal": {
-        "segment_direction": null,
-        "confidence": 50,
-        "center_distance_pct": null,
-        "center_is_remote": false
+        "segment_direction": "up",
+        "confidence": 58,
+        "center_distance_pct": 6.92,
+        "center_is_remote": true
       },
       "tactical": {
         "bias": "向下",
@@ -114,8 +114,10 @@
       "decision": {
         "grade": "🔴 暂不参与",
         "trade_type": "不参与",
-        "composite": 59,
-        "warnings": [],
+        "composite": 60,
+        "warnings": [
+          "最近正式中枢距现价较远，不拿历史中枢直接压低短线评分"
+        ],
         "veto": []
       },
       "levels": {
@@ -129,7 +131,7 @@
       "code": "300054",
       "name": "鼎龙股份",
       "price": 69.37,
-      "time": "2026-09-01 15:04:11",
+      "time": "2026-09-02 09:25:34",
       "formal": {
         "segment_direction": "up",
         "confidence": 58,
@@ -167,11 +169,11 @@
       "code": "688809",
       "name": "强一股份",
       "price": 448.5,
-      "time": "2026-09-01 15:04:12",
+      "time": "2026-09-02 09:25:36",
       "formal": {
-        "segment_direction": "up",
-        "confidence": 58,
-        "center_distance_pct": 2.38,
+        "segment_direction": null,
+        "confidence": 50,
+        "center_distance_pct": null,
         "center_is_remote": false
       },
       "tactical": {
@@ -190,7 +192,7 @@
       "decision": {
         "grade": "🔴 暂不参与",
         "trade_type": "不参与",
-        "composite": 50,
+        "composite": 49,
         "warnings": [],
         "veto": []
       },
@@ -205,7 +207,7 @@
       "code": "000988",
       "name": "华工科技",
       "price": 101.53,
-      "time": "2026-09-01 15:04:13",
+      "time": "2026-09-02 09:25:37",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
@@ -247,7 +249,7 @@
       "code": "300475",
       "name": "香农芯创",
       "price": 169.65,
-      "time": "2026-09-01 15:04:15",
+      "time": "2026-09-02 09:25:38",
       "formal": {
         "segment_direction": "up",
         "confidence": 58,
@@ -285,7 +287,7 @@
       "code": "688041",
       "name": "海光信息",
       "price": 250.43,
-      "time": "2026-09-01 15:04:16",
+      "time": "2026-09-02 09:25:39",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
@@ -328,7 +330,7 @@
       "code": "688820",
       "name": "盛合晶微",
       "price": 129.45,
-      "time": "2026-09-01 15:04:17",
+      "time": "2026-09-02 09:25:40",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
@@ -371,7 +373,7 @@
       "code": "601233",
       "name": "桐昆股份",
       "price": 27.17,
-      "time": "2026-09-01 15:04:20",
+      "time": "2026-09-02 09:25:41",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
@@ -411,12 +413,12 @@
       "code": "603127",
       "name": "昭衍新药",
       "price": 45.18,
-      "time": "2026-09-01 15:04:21",
+      "time": "2026-09-02 09:25:42",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
-        "center_distance_pct": 15.08,
-        "center_is_remote": true
+        "center_distance_pct": null,
+        "center_is_remote": false
       },
       "tactical": {
         "bias": "向下",
@@ -436,8 +438,7 @@
         "trade_type": "不参与",
         "composite": 38,
         "warnings": [
-          "最近正式线段仍向下，当前首先按反弹/修复机会处理",
-          "最近正式中枢距现价较远，不拿历史中枢直接压低短线评分"
+          "最近正式线段仍向下，当前首先按反弹/修复机会处理"
         ],
         "veto": [
           "1m与5m同时向下"
@@ -454,7 +455,7 @@
       "code": "688796",
       "name": "百奥赛图",
       "price": 121.32,
-      "time": "2026-09-01 15:04:23",
+      "time": "2026-09-02 09:25:44",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
