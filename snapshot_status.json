@@ -1,15 +1,30 @@
 {
   "system": "Lele Alpha",
-  "status": "valid",
-  "checked_at": "2026-09-11 08:40:33",
-  "source_generated_at": "2026-09-10 23:07:15",
+  "status": "invalid",
+  "checked_at": "2026-09-11 10:48:38",
+  "source_generated_at": "2026-09-11 10:48:38",
   "stock_count": 12,
   "stocks_length": 12,
   "expected_stock_count": 12,
-  "technical_data_valid": true,
-  "technical_healthy_count": 12,
+  "technical_data_valid": null,
+  "technical_healthy_count": null,
   "technical_expected_count": 12,
-  "errors": [],
-  "snapshot_publish_allowed": true,
-  "meaning": "FINAL LELE SNAPSHOT VALID"
+  "errors": [
+    "technical_data_valid=None，期望=True",
+    "technical_healthy_count=None，期望=12",
+    "stocks[0] data_quality.valid 不是 True",
+    "stocks[1] data_quality.valid 不是 True",
+    "stocks[2] data_quality.valid 不是 True",
+    "stocks[3] data_quality.valid 不是 True",
+    "stocks[4] data_quality.valid 不是 True",
+    "stocks[5] data_quality.valid 不是 True",
+    "stocks[6] data_quality.valid 不是 True",
+    "stocks[7] data_quality.valid 不是 True",
+    "stocks[8] data_quality.valid 不是 True",
+    "stocks[9] data_quality.valid 不是 True",
+    "stocks[10] data_quality.valid 不是 True",
+    "stocks[11] data_quality.valid 不是 True"
+  ],
+  "snapshot_publish_allowed": false,
+  "meaning": "FINAL LELE SNAPSHOT INVALID - DO NOT TREAT AS FINAL STRUCTURE"
 }
