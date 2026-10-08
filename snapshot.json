@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08 09:26:17",
+  "generated_at": "2026-10-08 09:42:48",
   "engine": "Lele Alpha Short Watch V0.6",
   "stock_count": 12,
   "technical_data_valid": true,
@@ -13,7 +13,7 @@
       "code": "300394",
       "name": "天孚通信",
       "price": 260.77,
-      "time": "2026-10-08 09:25:28",
+      "time": "2026-10-08 09:27:19",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
@@ -70,7 +70,7 @@
       "code": "002155",
       "name": "湖南黄金",
       "price": 23.2,
-      "time": "2026-10-08 09:25:30",
+      "time": "2026-10-08 09:27:21",
       "formal": {
         "segment_direction": null,
         "confidence": 50,
@@ -123,7 +123,7 @@
       "code": "002371",
       "name": "北方华创",
       "price": 615.97,
-      "time": "2026-10-08 09:25:36",
+      "time": "2026-10-08 09:27:24",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
@@ -177,7 +177,7 @@
       "code": "300054",
       "name": "鼎龙股份",
       "price": 67.45,
-      "time": "2026-10-08 09:25:40",
+      "time": "2026-10-08 09:27:28",
       "formal": {
         "segment_direction": null,
         "confidence": 50,
@@ -228,7 +228,7 @@
       "code": "688809",
       "name": "强一股份",
       "price": 488.64,
-      "time": "2026-10-08 09:25:48",
+      "time": "2026-10-08 09:27:30",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
@@ -282,7 +282,7 @@
       "code": "000988",
       "name": "华工科技",
       "price": 92.25,
-      "time": "2026-10-08 09:25:55",
+      "time": "2026-10-08 09:27:32",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
@@ -336,7 +336,7 @@
       "code": "300475",
       "name": "香农芯创",
       "price": 153.24,
-      "time": "2026-10-08 09:25:58",
+      "time": "2026-10-08 09:27:34",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
@@ -390,7 +390,7 @@
       "code": "688041",
       "name": "海光信息",
       "price": 226.8,
-      "time": "2026-10-08 09:26:02",
+      "time": "2026-10-08 09:27:37",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
@@ -443,7 +443,7 @@
       "code": "688820",
       "name": "盛合晶微",
       "price": 115.78,
-      "time": "2026-10-08 09:26:08",
+      "time": "2026-10-08 09:27:41",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
@@ -497,7 +497,7 @@
       "code": "601233",
       "name": "桐昆股份",
       "price": 22.73,
-      "time": "2026-10-08 09:26:11",
+      "time": "2026-10-08 09:27:45",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
@@ -550,7 +550,7 @@
       "code": "603127",
       "name": "昭衍新药",
       "price": 49.3,
-      "time": "2026-10-08 09:26:14",
+      "time": "2026-10-08 09:42:46",
       "formal": {
         "segment_direction": "up",
         "confidence": 58,
@@ -604,17 +604,17 @@
     {
       "code": "688796",
       "name": "百奥赛图",
-      "price": 126.77,
-      "time": "2026-10-08 09:26:17",
+      "price": 122.25,
+      "time": "2026-10-08 09:42:48",
       "formal": {
         "segment_direction": "up",
         "confidence": 58,
-        "center_distance_pct": 0.64,
+        "center_distance_pct": 4.19,
         "center_is_remote": false
       },
       "tactical": {
-        "bias": "向上",
-        "confidence": 68
+        "bias": "向下",
+        "confidence": 37
       },
       "momentum": {
         "confidence": 37,
@@ -628,27 +628,29 @@
       "data_quality": {
         "valid": true,
         "m1_count": 2495,
-        "m1_last": "2026-09-30 15:00",
+        "m1_last": "2026-10-08 09:42",
         "m1_source": "pytdx",
         "m5_count": 799,
-        "m5_last": "2026-09-30 15:00",
+        "m5_last": "2026-10-08 09:40",
         "m5_source": "pytdx",
         "m15_count": 799,
         "m15_last": "2026-09-30 15:00",
         "m15_source": "pytdx"
       },
       "decision": {
-        "grade": "🔴 暂不参与",
+        "grade": "🔴 放弃/等待",
         "trade_type": "不参与",
-        "composite": 54,
+        "composite": 40,
         "warnings": [],
-        "veto": []
+        "veto": [
+          "1m与5m同时向下"
+        ]
       },
       "levels": {
-        "trigger1": 127.11,
-        "trigger2": 127.24,
-        "support1": 126.7,
-        "support2": 126.69
+        "trigger1": 122.8,
+        "trigger2": 123.29,
+        "support1": 122.2,
+        "support2": 121.2
       },
       "final_bar": false
     }
