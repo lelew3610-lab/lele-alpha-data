@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-12 15:30:26",
+  "generated_at": "2026-10-13 13:55:58",
   "engine": "Lele Alpha Short Watch V0.6",
   "stock_count": 12,
   "technical_data_valid": true,
-  "trading_date": "2026-10-12",
-  "snapshot_type": "final_close",
-  "is_final_close": true,
-  "final_bar_count": 12,
+  "trading_date": "2026-10-13",
+  "snapshot_type": "intraday",
+  "is_final_close": false,
+  "final_bar_count": 0,
   "technical_healthy_count": 12,
   "stocks": [
     {
       "code": "300394",
       "name": "天孚通信",
-      "price": 229.54,
-      "time": "2026-10-12 15:30:10",
+      "price": 247.0,
+      "time": "2026-10-13 13:54:52",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
-        "center_distance_pct": 18.3,
+        "center_distance_pct": 11.15,
         "center_is_remote": true
       },
       "tactical": {
@@ -25,30 +25,30 @@
         "confidence": 68
       },
       "momentum": {
-        "confidence": 58,
+        "confidence": 82,
         "m5_state": "多头",
         "m5_signal": "无新交叉",
-        "m5_momentum": "红柱增强",
-        "m15_state": "空头",
+        "m5_momentum": "红柱减弱",
+        "m15_state": "多头",
         "m15_signal": "无新交叉",
-        "m15_momentum": "绿柱增强"
+        "m15_momentum": "红柱减弱"
       },
       "data_quality": {
         "valid": true,
-        "m1_count": 2496,
-        "m1_last": "2026-10-12 15:00",
+        "m1_count": 2495,
+        "m1_last": "2026-10-13 13:54",
         "m1_source": "pytdx",
-        "m5_count": 800,
-        "m5_last": "2026-10-12 15:00",
+        "m5_count": 799,
+        "m5_last": "2026-10-13 13:50",
         "m5_source": "pytdx",
-        "m15_count": 800,
-        "m15_last": "2026-10-12 15:00",
+        "m15_count": 799,
+        "m15_last": "2026-10-13 13:45",
         "m15_source": "pytdx"
       },
       "decision": {
-        "grade": "🟡 观察",
-        "trade_type": "观察",
-        "composite": 60,
+        "grade": "🟢 强动量反弹候选",
+        "trade_type": "反弹/修复机会",
+        "composite": 70,
         "warnings": [
           "最近正式线段仍向下，当前首先按反弹/修复机会处理",
           "最近正式中枢距现价较远，不拿历史中枢直接压低短线评分"
@@ -56,22 +56,22 @@
         "veto": []
       },
       "levels": {
-        "trigger1": 230.16,
-        "trigger2": 231.2,
-        "support1": 229.47,
-        "support2": 229.2
+        "trigger1": 247.58,
+        "trigger2": 248.76,
+        "support1": 246.13,
+        "support2": 245.1
       },
-      "final_bar": true
+      "final_bar": false
     },
     {
       "code": "002155",
       "name": "湖南黄金",
-      "price": 22.93,
-      "time": "2026-10-12 15:30:12",
+      "price": 23.03,
+      "time": "2026-10-13 13:54:53",
       "formal": {
-        "segment_direction": "up",
-        "confidence": 58,
-        "center_distance_pct": 0.09,
+        "segment_direction": "down",
+        "confidence": 42,
+        "center_distance_pct": null,
         "center_is_remote": false
       },
       "tactical": {
@@ -79,103 +79,102 @@
         "confidence": 37
       },
       "momentum": {
-        "confidence": 66,
+        "confidence": 87,
         "m5_state": "多头",
         "m5_signal": "无新交叉",
-        "m5_momentum": "红柱增强",
-        "m15_state": "空头",
+        "m5_momentum": "红柱减弱",
+        "m15_state": "多头",
         "m15_signal": "无新交叉",
-        "m15_momentum": "绿柱减弱"
+        "m15_momentum": "红柱增强"
       },
       "data_quality": {
         "valid": true,
-        "m1_count": 2496,
-        "m1_last": "2026-10-12 15:00",
+        "m1_count": 2495,
+        "m1_last": "2026-10-13 13:54",
         "m1_source": "pytdx",
-        "m5_count": 800,
-        "m5_last": "2026-10-12 15:00",
+        "m5_count": 799,
+        "m5_last": "2026-10-13 13:50",
         "m5_source": "pytdx",
-        "m15_count": 800,
-        "m15_last": "2026-10-12 15:00",
+        "m15_count": 799,
+        "m15_last": "2026-10-13 13:45",
         "m15_source": "pytdx"
       },
       "decision": {
         "grade": "🔴 暂不参与",
         "trade_type": "不参与",
-        "composite": 52,
-        "warnings": [],
+        "composite": 58,
+        "warnings": [
+          "最近正式线段仍向下，当前首先按反弹/修复机会处理"
+        ],
         "veto": []
       },
       "levels": {
-        "trigger1": 23.0,
-        "trigger2": 23.01,
-        "support1": 22.92,
-        "support2": 22.89
+        "trigger1": 23.06,
+        "trigger2": 23.11,
+        "support1": 23.02,
+        "support2": 23.0
       },
-      "final_bar": true
+      "final_bar": false
     },
     {
       "code": "002371",
       "name": "北方华创",
-      "price": 587.98,
-      "time": "2026-10-12 15:30:13",
+      "price": 593.89,
+      "time": "2026-10-13 13:54:54",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
-        "center_distance_pct": 14.29,
+        "center_distance_pct": 13.43,
         "center_is_remote": true
       },
       "tactical": {
-        "bias": "向下",
-        "confidence": 37
+        "bias": "向上",
+        "confidence": 68
       },
       "momentum": {
-        "confidence": 19,
-        "m5_state": "空头",
+        "confidence": 87,
+        "m5_state": "多头",
         "m5_signal": "无新交叉",
-        "m5_momentum": "绿柱减弱",
-        "m15_state": "空头",
+        "m5_momentum": "红柱减弱",
+        "m15_state": "多头",
         "m15_signal": "无新交叉",
-        "m15_momentum": "绿柱增强"
+        "m15_momentum": "红柱增强"
       },
       "data_quality": {
         "valid": true,
-        "m1_count": 2496,
-        "m1_last": "2026-10-12 15:00",
+        "m1_count": 2495,
+        "m1_last": "2026-10-13 13:54",
         "m1_source": "pytdx",
-        "m5_count": 800,
-        "m5_last": "2026-10-12 15:00",
+        "m5_count": 799,
+        "m5_last": "2026-10-13 13:50",
         "m5_source": "pytdx",
-        "m15_count": 800,
-        "m15_last": "2026-10-12 15:00",
+        "m15_count": 799,
+        "m15_last": "2026-10-13 13:45",
         "m15_source": "pytdx"
       },
       "decision": {
-        "grade": "🔴 放弃/等待",
-        "trade_type": "不参与",
-        "composite": 31,
+        "grade": "🟢 强动量反弹候选",
+        "trade_type": "反弹/修复机会",
+        "composite": 72,
         "warnings": [
           "最近正式线段仍向下，当前首先按反弹/修复机会处理",
           "最近正式中枢距现价较远，不拿历史中枢直接压低短线评分"
         ],
-        "veto": [
-          "1m与5m同时向下",
-          "5m/15m双空"
-        ]
+        "veto": []
       },
       "levels": {
-        "trigger1": 589.56,
-        "trigger2": 589.59,
-        "support1": 587.5,
-        "support2": 587.39
+        "trigger1": 594.23,
+        "trigger2": 594.9,
+        "support1": 593.66,
+        "support2": 593.18
       },
-      "final_bar": true
+      "final_bar": false
     },
     {
       "code": "300054",
       "name": "鼎龙股份",
-      "price": 62.45,
-      "time": "2026-10-12 15:30:14",
+      "price": 62.76,
+      "time": "2026-10-13 13:55:04",
       "formal": {
         "segment_direction": null,
         "confidence": 50,
@@ -183,161 +182,55 @@
         "center_is_remote": false
       },
       "tactical": {
-        "bias": "向下",
-        "confidence": 37
+        "bias": "向上",
+        "confidence": 68
       },
       "momentum": {
-        "confidence": 66,
+        "confidence": 87,
         "m5_state": "多头",
-        "m5_signal": "金叉",
-        "m5_momentum": "红柱增强",
-        "m15_state": "空头",
+        "m5_signal": "无新交叉",
+        "m5_momentum": "红柱减弱",
+        "m15_state": "多头",
         "m15_signal": "无新交叉",
-        "m15_momentum": "绿柱增强"
+        "m15_momentum": "红柱增强"
       },
       "data_quality": {
         "valid": true,
-        "m1_count": 2496,
-        "m1_last": "2026-10-12 15:00",
+        "m1_count": 2495,
+        "m1_last": "2026-10-13 13:54",
         "m1_source": "pytdx",
-        "m5_count": 800,
-        "m5_last": "2026-10-12 15:00",
+        "m5_count": 799,
+        "m5_last": "2026-10-13 13:50",
         "m5_source": "pytdx",
-        "m15_count": 800,
-        "m15_last": "2026-10-12 15:00",
+        "m15_count": 799,
+        "m15_last": "2026-10-13 13:45",
         "m15_source": "pytdx"
       },
       "decision": {
-        "grade": "🔴 暂不参与",
-        "trade_type": "不参与",
-        "composite": 51,
+        "grade": "🟢 强动量反弹候选",
+        "trade_type": "反弹/修复机会",
+        "composite": 73,
         "warnings": [],
         "veto": []
       },
       "levels": {
-        "trigger1": 62.56,
-        "trigger2": 62.6,
-        "support1": 62.41,
-        "support2": 62.4
+        "trigger1": 62.95,
+        "trigger2": 62.96,
+        "support1": 62.64,
+        "support2": 62.6
       },
-      "final_bar": true
+      "final_bar": false
     },
     {
       "code": "688809",
       "name": "强一股份",
-      "price": 465.08,
-      "time": "2026-10-12 15:30:15",
+      "price": 471.32,
+      "time": "2026-10-13 13:55:31",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
-        "center_distance_pct": null,
+        "center_distance_pct": 3.82,
         "center_is_remote": false
-      },
-      "tactical": {
-        "bias": "向下",
-        "confidence": 37
-      },
-      "momentum": {
-        "confidence": 74,
-        "m5_state": "多头",
-        "m5_signal": "金叉",
-        "m5_momentum": "红柱增强",
-        "m15_state": "空头",
-        "m15_signal": "无新交叉",
-        "m15_momentum": "绿柱减弱"
-      },
-      "data_quality": {
-        "valid": true,
-        "m1_count": 2496,
-        "m1_last": "2026-10-12 15:00",
-        "m1_source": "pytdx",
-        "m5_count": 800,
-        "m5_last": "2026-10-12 15:00",
-        "m5_source": "pytdx",
-        "m15_count": 800,
-        "m15_last": "2026-10-12 15:00",
-        "m15_source": "pytdx"
-      },
-      "decision": {
-        "grade": "🔴 暂不参与",
-        "trade_type": "不参与",
-        "composite": 53,
-        "warnings": [
-          "最近正式线段仍向下，当前首先按反弹/修复机会处理"
-        ],
-        "veto": []
-      },
-      "levels": {
-        "trigger1": 465.43,
-        "trigger2": 470.88,
-        "support1": 465.01,
-        "support2": 465.0
-      },
-      "final_bar": true
-    },
-    {
-      "code": "000988",
-      "name": "华工科技",
-      "price": 82.58,
-      "time": "2026-10-12 15:30:17",
-      "formal": {
-        "segment_direction": "down",
-        "confidence": 42,
-        "center_distance_pct": null,
-        "center_is_remote": false
-      },
-      "tactical": {
-        "bias": "向下",
-        "confidence": 37
-      },
-      "momentum": {
-        "confidence": 66,
-        "m5_state": "多头",
-        "m5_signal": "无新交叉",
-        "m5_momentum": "红柱增强",
-        "m15_state": "空头",
-        "m15_signal": "无新交叉",
-        "m15_momentum": "绿柱减弱"
-      },
-      "data_quality": {
-        "valid": true,
-        "m1_count": 2496,
-        "m1_last": "2026-10-12 15:00",
-        "m1_source": "pytdx",
-        "m5_count": 800,
-        "m5_last": "2026-10-12 15:00",
-        "m5_source": "pytdx",
-        "m15_count": 800,
-        "m15_last": "2026-10-12 15:00",
-        "m15_source": "pytdx"
-      },
-      "decision": {
-        "grade": "🔴 暂不参与",
-        "trade_type": "不参与",
-        "composite": 49,
-        "warnings": [
-          "最近正式线段仍向下，当前首先按反弹/修复机会处理"
-        ],
-        "veto": []
-      },
-      "levels": {
-        "trigger1": 82.93,
-        "trigger2": 82.99,
-        "support1": 82.54,
-        "support2": 82.48
-      },
-      "final_bar": true
-    },
-    {
-      "code": "300475",
-      "name": "香农芯创",
-      "price": 127.88,
-      "time": "2026-10-12 15:30:18",
-      "formal": {
-        "segment_direction": "down",
-        "confidence": 42,
-        "center_distance_pct": 30.36,
-        "center_is_remote": true
       },
       "tactical": {
         "bias": "向上",
@@ -354,14 +247,14 @@
       },
       "data_quality": {
         "valid": true,
-        "m1_count": 2496,
-        "m1_last": "2026-10-12 15:00",
+        "m1_count": 2495,
+        "m1_last": "2026-10-13 13:55",
         "m1_source": "pytdx",
-        "m5_count": 800,
-        "m5_last": "2026-10-12 15:00",
+        "m5_count": 799,
+        "m5_last": "2026-10-13 13:55",
         "m5_source": "pytdx",
-        "m15_count": 800,
-        "m15_last": "2026-10-12 15:00",
+        "m15_count": 799,
+        "m15_last": "2026-10-13 13:45",
         "m15_source": "pytdx"
       },
       "decision": {
@@ -369,80 +262,23 @@
         "trade_type": "不参与",
         "composite": 52,
         "warnings": [
-          "最近正式线段仍向下，当前首先按反弹/修复机会处理",
-          "最近正式中枢距现价较远，不拿历史中枢直接压低短线评分"
+          "最近正式线段仍向下，当前首先按反弹/修复机会处理"
         ],
         "veto": []
       },
       "levels": {
-        "trigger1": 128.65,
-        "trigger2": 129.09,
-        "support1": null,
-        "support2": null
+        "trigger1": 471.88,
+        "trigger2": 471.9,
+        "support1": 471.02,
+        "support2": 470.51
       },
-      "final_bar": true
+      "final_bar": false
     },
     {
-      "code": "688041",
-      "name": "海光信息",
-      "price": 213.5,
-      "time": "2026-10-12 15:30:20",
-      "formal": {
-        "segment_direction": "down",
-        "confidence": 42,
-        "center_distance_pct": null,
-        "center_is_remote": false
-      },
-      "tactical": {
-        "bias": "向下",
-        "confidence": 37
-      },
-      "momentum": {
-        "confidence": 27,
-        "m5_state": "空头",
-        "m5_signal": "无新交叉",
-        "m5_momentum": "绿柱减弱",
-        "m15_state": "空头",
-        "m15_signal": "无新交叉",
-        "m15_momentum": "绿柱减弱"
-      },
-      "data_quality": {
-        "valid": true,
-        "m1_count": 2496,
-        "m1_last": "2026-10-12 15:00",
-        "m1_source": "pytdx",
-        "m5_count": 800,
-        "m5_last": "2026-10-12 15:00",
-        "m5_source": "pytdx",
-        "m15_count": 800,
-        "m15_last": "2026-10-12 15:00",
-        "m15_source": "pytdx"
-      },
-      "decision": {
-        "grade": "🔴 放弃/等待",
-        "trade_type": "不参与",
-        "composite": 34,
-        "warnings": [
-          "最近正式线段仍向下，当前首先按反弹/修复机会处理"
-        ],
-        "veto": [
-          "1m与5m同时向下",
-          "5m/15m双空"
-        ]
-      },
-      "levels": {
-        "trigger1": 214.0,
-        "trigger2": 214.2,
-        "support1": 213.39,
-        "support2": 213.35
-      },
-      "final_bar": true
-    },
-    {
-      "code": "688820",
-      "name": "盛合晶微",
-      "price": 104.09,
-      "time": "2026-10-12 15:30:21",
+      "code": "000988",
+      "name": "华工科技",
+      "price": 83.92,
+      "time": "2026-10-13 13:55:36",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
@@ -454,83 +290,83 @@
         "confidence": 68
       },
       "momentum": {
-        "confidence": 66,
+        "confidence": 87,
         "m5_state": "多头",
         "m5_signal": "无新交叉",
-        "m5_momentum": "红柱增强",
-        "m15_state": "空头",
+        "m5_momentum": "红柱减弱",
+        "m15_state": "多头",
         "m15_signal": "无新交叉",
-        "m15_momentum": "绿柱减弱"
+        "m15_momentum": "红柱增强"
       },
       "data_quality": {
         "valid": true,
-        "m1_count": 2496,
-        "m1_last": "2026-10-12 15:00",
+        "m1_count": 2495,
+        "m1_last": "2026-10-13 13:55",
         "m1_source": "pytdx",
-        "m5_count": 800,
-        "m5_last": "2026-10-12 15:00",
+        "m5_count": 799,
+        "m5_last": "2026-10-13 13:55",
         "m5_source": "pytdx",
-        "m15_count": 800,
-        "m15_last": "2026-10-12 15:00",
+        "m15_count": 799,
+        "m15_last": "2026-10-13 13:45",
         "m15_source": "pytdx"
       },
       "decision": {
-        "grade": "🟡→🟢 等确认的短线候选",
-        "trade_type": "等待确认",
-        "composite": 63,
+        "grade": "🟢 强动量反弹候选",
+        "trade_type": "反弹/修复机会",
+        "composite": 72,
         "warnings": [
           "最近正式线段仍向下，当前首先按反弹/修复机会处理"
         ],
         "veto": []
       },
       "levels": {
-        "trigger1": 104.31,
-        "trigger2": 104.68,
-        "support1": 104.04,
-        "support2": 104.0
+        "trigger1": 83.97,
+        "trigger2": 83.99,
+        "support1": 83.63,
+        "support2": 83.6
       },
-      "final_bar": true
+      "final_bar": false
     },
     {
-      "code": "601233",
-      "name": "桐昆股份",
-      "price": 21.06,
-      "time": "2026-10-12 15:30:23",
+      "code": "300475",
+      "name": "香农芯创",
+      "price": 129.13,
+      "time": "2026-10-13 13:55:48",
       "formal": {
         "segment_direction": "down",
         "confidence": 42,
-        "center_distance_pct": 7.53,
+        "center_distance_pct": 29.07,
         "center_is_remote": true
       },
       "tactical": {
-        "bias": "向下",
-        "confidence": 37
+        "bias": "向上",
+        "confidence": 68
       },
       "momentum": {
-        "confidence": 66,
+        "confidence": 87,
         "m5_state": "多头",
         "m5_signal": "无新交叉",
-        "m5_momentum": "红柱增强",
-        "m15_state": "空头",
+        "m5_momentum": "红柱减弱",
+        "m15_state": "多头",
         "m15_signal": "无新交叉",
-        "m15_momentum": "绿柱减弱"
+        "m15_momentum": "红柱增强"
       },
       "data_quality": {
         "valid": true,
-        "m1_count": 2496,
-        "m1_last": "2026-10-12 15:00",
+        "m1_count": 2495,
+        "m1_last": "2026-10-13 13:55",
         "m1_source": "pytdx",
-        "m5_count": 800,
-        "m5_last": "2026-10-12 15:00",
+        "m5_count": 799,
+        "m5_last": "2026-10-13 13:55",
         "m5_source": "pytdx",
-        "m15_count": 800,
-        "m15_last": "2026-10-12 15:00",
+        "m15_count": 799,
+        "m15_last": "2026-10-13 13:45",
         "m15_source": "pytdx"
       },
       "decision": {
-        "grade": "🔴 暂不参与",
-        "trade_type": "不参与",
-        "composite": 49,
+        "grade": "🟢 强动量反弹候选",
+        "trade_type": "反弹/修复机会",
+        "composite": 72,
         "warnings": [
           "最近正式线段仍向下，当前首先按反弹/修复机会处理",
           "最近正式中枢距现价较远，不拿历史中枢直接压低短线评分"
@@ -538,22 +374,22 @@
         "veto": []
       },
       "levels": {
-        "trigger1": 21.18,
-        "trigger2": 21.35,
-        "support1": 21.0,
-        "support2": 20.87
+        "trigger1": 129.9,
+        "trigger2": 129.93,
+        "support1": 128.9,
+        "support2": 128.75
       },
-      "final_bar": true
+      "final_bar": false
     },
     {
-      "code": "603127",
-      "name": "昭衍新药",
-      "price": 50.73,
-      "time": "2026-10-12 15:30:25",
+      "code": "688041",
+      "name": "海光信息",
+      "price": 210.69,
+      "time": "2026-10-13 13:55:51",
       "formal": {
-        "segment_direction": "up",
-        "confidence": 58,
-        "center_distance_pct": 1.55,
+        "segment_direction": "down",
+        "confidence": 42,
+        "center_distance_pct": null,
         "center_is_remote": false
       },
       "tactical": {
@@ -561,84 +397,136 @@
         "confidence": 37
       },
       "momentum": {
-        "confidence": 8,
-        "m5_state": "空头",
-        "m5_signal": "无新交叉",
-        "m5_momentum": "绿柱增强",
-        "m15_state": "空头",
-        "m15_signal": "无新交叉",
-        "m15_momentum": "绿柱增强"
-      },
-      "data_quality": {
-        "valid": true,
-        "m1_count": 2496,
-        "m1_last": "2026-10-12 15:00",
-        "m1_source": "pytdx",
-        "m5_count": 800,
-        "m5_last": "2026-10-12 15:00",
-        "m5_source": "pytdx",
-        "m15_count": 800,
-        "m15_last": "2026-10-12 15:00",
-        "m15_source": "pytdx"
-      },
-      "decision": {
-        "grade": "🔴 放弃/等待",
-        "trade_type": "不参与",
-        "composite": 29,
-        "warnings": [],
-        "veto": [
-          "1m与5m同时向下",
-          "5m/15m双空"
-        ]
-      },
-      "levels": {
-        "trigger1": 51.39,
-        "trigger2": 51.77,
-        "support1": 50.43,
-        "support2": 50.1
-      },
-      "final_bar": true
-    },
-    {
-      "code": "688796",
-      "name": "百奥赛图",
-      "price": 94.56,
-      "time": "2026-10-12 15:30:26",
-      "formal": {
-        "segment_direction": "down",
-        "confidence": 42,
-        "center_distance_pct": 24.64,
-        "center_is_remote": true
-      },
-      "tactical": {
-        "bias": "向下",
-        "confidence": 37
-      },
-      "momentum": {
-        "confidence": 66,
+        "confidence": 87,
         "m5_state": "多头",
         "m5_signal": "无新交叉",
-        "m5_momentum": "红柱增强",
-        "m15_state": "空头",
+        "m5_momentum": "红柱减弱",
+        "m15_state": "多头",
         "m15_signal": "无新交叉",
-        "m15_momentum": "绿柱减弱"
+        "m15_momentum": "红柱增强"
       },
       "data_quality": {
         "valid": true,
-        "m1_count": 2496,
-        "m1_last": "2026-10-12 15:00",
+        "m1_count": 2495,
+        "m1_last": "2026-10-13 13:55",
         "m1_source": "pytdx",
-        "m5_count": 800,
-        "m5_last": "2026-10-12 15:00",
+        "m5_count": 799,
+        "m5_last": "2026-10-13 13:55",
         "m5_source": "pytdx",
-        "m15_count": 800,
-        "m15_last": "2026-10-12 15:00",
+        "m15_count": 799,
+        "m15_last": "2026-10-13 13:45",
         "m15_source": "pytdx"
       },
       "decision": {
         "grade": "🔴 暂不参与",
         "trade_type": "不参与",
-        "composite": 49,
+        "composite": 58,
+        "warnings": [
+          "最近正式线段仍向下，当前首先按反弹/修复机会处理"
+        ],
+        "veto": []
+      },
+      "levels": {
+        "trigger1": 212.41,
+        "trigger2": 212.68,
+        "support1": 210.35,
+        "support2": 209.66
+      },
+      "final_bar": false
+    },
+    {
+      "code": "688820",
+      "name": "盛合晶微",
+      "price": 105.15,
+      "time": "2026-10-13 13:55:52",
+      "formal": {
+        "segment_direction": "down",
+        "confidence": 42,
+        "center_distance_pct": null,
+        "center_is_remote": false
+      },
+      "tactical": {
+        "bias": "向上",
+        "confidence": 68
+      },
+      "momentum": {
+        "confidence": 87,
+        "m5_state": "多头",
+        "m5_signal": "无新交叉",
+        "m5_momentum": "红柱减弱",
+        "m15_state": "多头",
+        "m15_signal": "无新交叉",
+        "m15_momentum": "红柱增强"
+      },
+      "data_quality": {
+        "valid": true,
+        "m1_count": 2495,
+        "m1_last": "2026-10-13 13:55",
+        "m1_source": "pytdx",
+        "m5_count": 799,
+        "m5_last": "2026-10-13 13:55",
+        "m5_source": "pytdx",
+        "m15_count": 799,
+        "m15_last": "2026-10-13 13:45",
+        "m15_source": "pytdx"
+      },
+      "decision": {
+        "grade": "🟢 强动量反弹候选",
+        "trade_type": "反弹/修复机会",
+        "composite": 72,
+        "warnings": [
+          "最近正式线段仍向下，当前首先按反弹/修复机会处理"
+        ],
+        "veto": []
+      },
+      "levels": {
+        "trigger1": 105.18,
+        "trigger2": 105.29,
+        "support1": 105.13,
+        "support2": 104.85
+      },
+      "final_bar": false
+    },
+    {
+      "code": "601233",
+      "name": "桐昆股份",
+      "price": 20.68,
+      "time": "2026-10-13 13:55:53",
+      "formal": {
+        "segment_direction": "down",
+        "confidence": 42,
+        "center_distance_pct": 9.2,
+        "center_is_remote": true
+      },
+      "tactical": {
+        "bias": "向上",
+        "confidence": 68
+      },
+      "momentum": {
+        "confidence": 87,
+        "m5_state": "多头",
+        "m5_signal": "无新交叉",
+        "m5_momentum": "红柱减弱",
+        "m15_state": "多头",
+        "m15_signal": "无新交叉",
+        "m15_momentum": "红柱增强"
+      },
+      "data_quality": {
+        "valid": true,
+        "m1_count": 2495,
+        "m1_last": "2026-10-13 13:55",
+        "m1_source": "pytdx",
+        "m5_count": 799,
+        "m5_last": "2026-10-13 13:55",
+        "m5_source": "pytdx",
+        "m15_count": 799,
+        "m15_last": "2026-10-13 13:45",
+        "m15_source": "pytdx"
+      },
+      "decision": {
+        "grade": "🟢 强动量反弹候选",
+        "trade_type": "反弹/修复机会",
+        "composite": 72,
         "warnings": [
           "最近正式线段仍向下，当前首先按反弹/修复机会处理",
           "最近正式中枢距现价较远，不拿历史中枢直接压低短线评分"
@@ -646,12 +534,117 @@
         "veto": []
       },
       "levels": {
-        "trigger1": 95.9,
-        "trigger2": 98.57,
-        "support1": 94.02,
-        "support2": 93.0
+        "trigger1": 20.7,
+        "trigger2": 20.75,
+        "support1": 20.66,
+        "support2": 20.57
       },
-      "final_bar": true
+      "final_bar": false
+    },
+    {
+      "code": "603127",
+      "name": "昭衍新药",
+      "price": 50.84,
+      "time": "2026-10-13 13:55:55",
+      "formal": {
+        "segment_direction": "up",
+        "confidence": 58,
+        "center_distance_pct": 1.34,
+        "center_is_remote": false
+      },
+      "tactical": {
+        "bias": "向上",
+        "confidence": 68
+      },
+      "momentum": {
+        "confidence": 87,
+        "m5_state": "多头",
+        "m5_signal": "无新交叉",
+        "m5_momentum": "红柱减弱",
+        "m15_state": "多头",
+        "m15_signal": "无新交叉",
+        "m15_momentum": "红柱增强"
+      },
+      "data_quality": {
+        "valid": true,
+        "m1_count": 2495,
+        "m1_last": "2026-10-13 13:55",
+        "m1_source": "pytdx",
+        "m5_count": 799,
+        "m5_last": "2026-10-13 13:55",
+        "m5_source": "pytdx",
+        "m15_count": 799,
+        "m15_last": "2026-10-13 13:45",
+        "m15_source": "pytdx"
+      },
+      "decision": {
+        "grade": "🟢 高质量顺结构短线候选",
+        "trade_type": "顺结构机会",
+        "composite": 74,
+        "warnings": [],
+        "veto": []
+      },
+      "levels": {
+        "trigger1": 51.03,
+        "trigger2": 51.12,
+        "support1": 50.81,
+        "support2": 50.5
+      },
+      "final_bar": false
+    },
+    {
+      "code": "688796",
+      "name": "百奥赛图",
+      "price": 92.12,
+      "time": "2026-10-13 13:55:58",
+      "formal": {
+        "segment_direction": "down",
+        "confidence": 42,
+        "center_distance_pct": 26.58,
+        "center_is_remote": true
+      },
+      "tactical": {
+        "bias": "向下",
+        "confidence": 37
+      },
+      "momentum": {
+        "confidence": 87,
+        "m5_state": "多头",
+        "m5_signal": "无新交叉",
+        "m5_momentum": "红柱减弱",
+        "m15_state": "多头",
+        "m15_signal": "无新交叉",
+        "m15_momentum": "红柱增强"
+      },
+      "data_quality": {
+        "valid": true,
+        "m1_count": 2495,
+        "m1_last": "2026-10-13 13:55",
+        "m1_source": "pytdx",
+        "m5_count": 799,
+        "m5_last": "2026-10-13 13:55",
+        "m5_source": "pytdx",
+        "m15_count": 799,
+        "m15_last": "2026-10-13 13:45",
+        "m15_source": "pytdx"
+      },
+      "decision": {
+        "grade": "🔴 暂不参与",
+        "trade_type": "不参与",
+        "composite": 58,
+        "warnings": [
+          "最近正式线段仍向下，当前首先按反弹/修复机会处理",
+          "最近正式中枢距现价较远，不拿历史中枢直接压低短线评分"
+        ],
+        "veto": []
+      },
+      "levels": {
+        "trigger1": 94.0,
+        "trigger2": 95.9,
+        "support1": 87.49,
+        "support2": 87.0
+      },
+      "final_bar": false
     }
   ]
 }
