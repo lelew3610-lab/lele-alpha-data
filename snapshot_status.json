@@ -1,12 +1,12 @@
 {
   "system": "Lele Alpha",
-  "snapshot_sha256": "0a6b69b1aa60b4c47a73ba1001563afa49e2ba1b92bcfe71cb344f27142415ba",
-  "consumption_mode": "realtime",
-  "realtime_signal_allowed": true,
-  "data_as_of": "2026-11-13 14:54",
+  "snapshot_sha256": "106ceeaea85f590c0dc28805c50fb94d16d8b1bb5a6ca4ef13407ce9d4dccff5",
+  "consumption_mode": "close_review",
+  "realtime_signal_allowed": false,
+  "data_as_of": "2026-11-13 15:00",
   "status": "valid",
-  "checked_at": "2026-11-13 14:55:33",
-  "source_generated_at": "2026-11-13 14:55:24",
+  "checked_at": "2026-11-13 15:01:09",
+  "source_generated_at": "2026-11-13 15:01:01",
   "stock_count": 12,
   "stocks_length": 12,
   "expected_stock_count": 12,
@@ -14,10 +14,10 @@
   "technical_healthy_count": 12,
   "technical_expected_count": 12,
   "trading_date": "2026-11-13",
-  "snapshot_type": "intraday",
-  "is_final_close": false,
-  "final_bar_count": 0,
+  "snapshot_type": "final_close",
+  "is_final_close": true,
+  "final_bar_count": 12,
   "errors": [],
   "snapshot_publish_allowed": true,
-  "meaning": "LELE INTRADAY SNAPSHOT VALID"
+  "meaning": "CONFIRMED CLOSE REVIEW ONLY - NO REALTIME SIGNALS"
 }
