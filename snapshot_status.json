@@ -1,12 +1,12 @@
 {
   "system": "Lele Alpha",
-  "snapshot_sha256": "d396229a12809f69996175654be0159168ee69ad7ee092877b045641f64c7130",
+  "snapshot_sha256": null,
   "consumption_mode": "realtime",
-  "realtime_signal_allowed": true,
-  "data_as_of": "2026-11-23 13:16",
-  "status": "valid",
-  "checked_at": "2026-11-23 13:17:40",
-  "source_generated_at": "2026-11-23 13:17:25",
+  "realtime_signal_allowed": false,
+  "data_as_of": "2026-11-23 13:18",
+  "status": "invalid",
+  "checked_at": "2026-11-23 13:21:37",
+  "source_generated_at": "2026-11-23 13:19:22",
   "stock_count": 12,
   "stocks_length": 12,
   "expected_stock_count": 12,
@@ -17,7 +17,13 @@
   "snapshot_type": "intraday",
   "is_final_close": false,
   "final_bar_count": 0,
-  "errors": [],
-  "snapshot_publish_allowed": true,
-  "meaning": "LELE INTRADAY SNAPSHOT VALID"
+  "errors": [
+    "stock 0: m1: stale bar",
+    "stock 1: m1: stale bar",
+    "stock 2: m1: stale bar",
+    "stock 3: m1: stale bar",
+    "stock 4: m1: stale bar"
+  ],
+  "snapshot_publish_allowed": false,
+  "meaning": "LELE SNAPSHOT INVALID - DO NOT TREAT AS CURRENT STRUCTURE"
 }
